@@ -13,33 +13,7 @@ hash = {
         :memorial_day => ["BBQ"]
       }
     }
-  }
+
   
-def hol_hash(hash)
-  holidays = []
-  hash.each do |season, holiday, supplies|
-    puts "#{season}:"
-    holidays << holiday.keys
-    holidays = holidays.join(" ").split(" ").join("_").split("_")
-end
-holidays.each do |hol|
-  hol.capitalize!
-end
-holidays
-end
-
-def hol_hash(hash)
-  hash.each do |season, holiday|
-    puts "#{season.capitalize}:"
-    holiday.each do |holiday, supplies|
-    puts "  #{holiday.to_s.split("_").map {|item| item.capitalize}.join(" ")}: #{supplies.join(", ")}"
-     end
-  end 
-end
-   
-
-
-
-
 
 
