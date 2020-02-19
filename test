@@ -1,0 +1,42 @@
+hash = {
+      :winter => {
+        :christmas => ["Lights", "Wreath"],
+        :new_years => ["Party Hats"]
+      },
+      :summer => {
+        :fourth_of_july => ["Fireworks", "BBQ"]
+      },
+      :fall => {
+        :thanksgiving => ["Turkey"]
+      },
+      :spring => {
+        :memorial_day => ["BBQ"]
+      }
+    }
+  }
+  
+def hol_hash(hash)
+  holidays = []
+  hash.each do |season, holiday, supplies|
+    puts "#{season}:"
+    holidays << holiday.keys
+    holidays = holidays.join(" ").split(" ").join("_").split("_")
+end
+holidays.each do |hol|
+  hol.capitalize!
+end
+holidays
+end
+
+def hol_hash(hash)
+  holidays = []
+  hash.each do |season, holiday, supplies|
+    puts "#{season}:"
+    if season.values = 
+end
+
+
+
+
+
+
