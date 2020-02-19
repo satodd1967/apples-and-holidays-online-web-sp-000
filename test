@@ -14,6 +14,10 @@ hash = {
       }
     }
 
-  
+  def hol_hash
+    hash.each do |season, holiday, supplies|
+    puts supplies
+    end
+    
 
 
