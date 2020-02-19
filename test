@@ -19,9 +19,10 @@ def hol_hash(hash)
   hash.each do |season, holiday|
     holiday.each do |holiday, supplies|
       supplies.each do |supply|
-      puts supply
+      barbi << supply
     end
   end
+  barbi
 end
     
 
