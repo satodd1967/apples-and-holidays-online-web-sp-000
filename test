@@ -30,7 +30,7 @@ end
 
 def hol_hash(hash)
   holidays = []
-  hash.each do |season, holiday, supplies|
+  hash.each do |season, holiday|
     puts "#{season}:"
     if season.values = 
 end
