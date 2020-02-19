@@ -22,7 +22,8 @@ def hol_hash(hash)
       barbi << supply
     end
   end
-  barbi
+end
+barbi
 end
     
 
