@@ -17,7 +17,8 @@ hash = {
 def hol_hash(hash)
   hash.each do |season, holiday|
     holiday.each do |holiday, supplies|
-      puts supplies
+      if supplies == "BBQ"
+        puts holiday
     end
   end
 end
