@@ -15,11 +15,13 @@ hash = {
     }
 
 def hol_hash(hash)
+  barbi = []
   hash.each do |season, holiday|
     holiday.each do |holiday, supplies|
-      puts supplies
+      barbi << supplies == "BBQ"
     end
   end
+  barbi
 end
     
 
