@@ -33,7 +33,7 @@ def hol_hash(hash)
   hash.each do |season, holiday|
     puts "#{season.capitalize}:"
     holiday.each do |holiday, supplies|
-    puts "  #{holiday.to_s.split("_")}:"
+    puts "  #{holiday.to_s.split("_").map }:"
      end
   end 
 end
