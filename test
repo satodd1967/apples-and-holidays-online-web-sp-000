@@ -14,10 +14,11 @@ hash = {
       }
     }
 
-  def hol_hash(hash)
-    hash.each do |season, holiday, supplies|
+def hol_hash(hash)
+  hash.each do |season, holiday, supplies|
     puts #{supplies}
-    end
+  end
+end
     
 
 
