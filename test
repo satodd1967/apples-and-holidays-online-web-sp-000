@@ -29,7 +29,6 @@ holidays
 end
 
 def hol_hash(hash)
-  holidays = []
   hash.each do |season, holiday|
     puts "#{season.capitalize}:"
     holiday.each do |holiday, supplies|
